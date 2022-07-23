@@ -1,3 +1,4 @@
+// ! description on default parameter
 /*  In JavaScript(es6), default function parameters allow you-
 to initialize named parameters with default values if no-
 values or undefined are passed into the function. */
@@ -6,6 +7,7 @@ values or undefined are passed into the function. */
 initialized with default values if no value or undefined is passed. */
 
 
+// start ===
 // 1 (old method) if second parameter is absent 
 function add(num1, num2) {
     if (num2 == undefined) {       // (num2 == '') -> NaN
